@@ -1,0 +1,17 @@
+
+region              = "ap-south-1"
+aws_profile         = "default"
+instance_name       = "MyApp"
+public_key_path     = "/path/to/your/key.pub"
+allowed_ssh_cidr    = "0.0.0.0/0"
+ami_id              = "ami-xxxxx"
+backend_instance_type = "t2.micro"
+
+# RDS Configuration
+db_name            = "saasdb"
+db_instance_class  = "db.t3.micro"
+db_username        = "dbadmin"
+db_password        = "password"
+
+# S3 Configuration
+s3_bucket_name     = "bucket-name"
